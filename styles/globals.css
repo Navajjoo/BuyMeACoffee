@@ -1,0 +1,54 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 4rem;
+  color: white;
+  text-shadow: 2px 2px #444444;
+}
+
+p {
+  font-size: 2rem;
+  color: white;
+  text-shadow: 2px 2px #444444;
+}
+
+.connect-wallet-btn {
+  background-color: #7c43bd;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  box-shadow: 2px 2px #444444;
+}
+
+.connect-wallet-btn::after {
+  content: "Goerli Network";
+  display: block;
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+}
+
+.buy-coffee-btn {
+  background-color: #7c43bd;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  box-shadow: 2px 2px #444444;
+  text-shadow: 2px 2px #444444;
+}
